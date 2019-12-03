@@ -1,0 +1,73 @@
+left-menu {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png");
+  background-size: 100% 100%;
+  padding: 0px;
+  float: left;
+  width: 40%;
+  height: 8vw;
+  max-height: 100px;
+  position: relative;
+}
+
+.mapouter {
+  padding-left: 25px;
+}
+
+.right-menu {
+  background-color: rgb(149, 163, 161);
+  padding: 0px;
+  float: left;
+  width: 60%;
+  height: 8vw;
+  max-height: 100px;
+  position: relative;
+}
+
+.main {
+  font-size: 1.5vw;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+div.demo {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  /* For cells of equal size */
+}
+
+div.demo p {
+  display: table-cell;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(232, 224, 224)
+}
+
+A {
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+.hovertext:hover {
+  font-size: 110%;
+  color: rgb(59, 59, 59)
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+}
